@@ -87,7 +87,8 @@ The users can upload photos to an album thats shared with selected contacts who 
    * [Add/remove friends]
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="https://imgur.com/a/58TNRpi" width=600>
+<img src="https://i.ibb.co/D9Z4YcQ/Capture1.png" width=600>
+<a href="https://ibb.co/x1NhY96"><img src="https://i.ibb.co/D9Z4YcQ/Capture1.png" alt="Capture1" border="0"></a>
 
 ### [BONUS] Digital Wireframes & Mockups
 https://www.figma.com/file/DRKfSh8yHzcGpa7zPYoZG9/Photo-Collaborate?node-id=0%3A1
