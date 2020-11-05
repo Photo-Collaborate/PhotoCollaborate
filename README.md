@@ -108,6 +108,17 @@ https://www.figma.com/file/DRKfSh8yHzcGpa7zPYoZG9/Photo-Collaborate?node-id=0%3A
 # takenOn    | DateTime        | Date when photo was taken
 # ------------------------------------------------------------
 
+## Album
+# Property   |   Type          |   Description               |
+# ------------------------------------------------------------
+# albumID    | String          | Unique id for the album
+# author     | Pointer to user | Uploaded album author
+# members      | Pointer to Users            | users that belong to album
+# photos    |  List  | List of photo IDS that belong to album
+# createdAt | DateTime        | Date when album was created
+# updatedAt    | DateTime        | Date when album was updated
+# ------------------------------------------------------------
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
