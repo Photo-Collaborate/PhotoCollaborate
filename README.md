@@ -95,9 +95,18 @@ https://www.figma.com/file/DRKfSh8yHzcGpa7zPYoZG9/Photo-Collaborate?node-id=0%3A
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+Photo
+Property   |   Type          |   Description               |
+------------------------------------------------------------
+photoID    | String          | Unique id for the user post
+author     | Pointer to user | Uploaded photo author
+image      | File            | image in the album
+uploadedAt | DateTime        | Date when photo was uploaded
+takenOn    | DateTime        | Date when photo was taken
+------------------------------------------------------------
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
