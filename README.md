@@ -119,6 +119,17 @@ https://www.figma.com/file/DRKfSh8yHzcGpa7zPYoZG9/Photo-Collaborate?node-id=0%3A
 # updatedAt    | DateTime        | Date when album was updated
 # ------------------------------------------------------------
 
+## User
+# Property   |   Type          |   Description               |
+# ------------------------------------------------------------
+# userID    | String          | Unique id for the user
+# createdAt     | DateTime | Date of when user was created
+# profileImage      | File            | Profile image of user
+# username | String        | Username
+# email    | String        | Users email
+# password  | String    | Hashed users password
+# ------------------------------------------------------------
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
