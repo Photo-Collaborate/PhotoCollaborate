@@ -97,15 +97,16 @@ https://www.figma.com/file/DRKfSh8yHzcGpa7zPYoZG9/Photo-Collaborate?node-id=0%3A
 ## Schema 
 
 ### Models
-Photo
-Property   |   Type          |   Description               |
-------------------------------------------------------------
-photoID    | String          | Unique id for the user post
-author     | Pointer to user | Uploaded photo author
-image      | File            | image in the album
-uploadedAt | DateTime        | Date when photo was uploaded
-takenOn    | DateTime        | Date when photo was taken
-------------------------------------------------------------
+
+## Photo
+# Property   |   Type          |   Description               |
+# ------------------------------------------------------------
+# photoID    | String          | Unique id for the user post
+# author     | Pointer to user | Uploaded photo author
+# image      | File            | image in the album
+# uploadedAt | DateTime        | Date when photo was uploaded
+# takenOn    | DateTime        | Date when photo was taken
+# ------------------------------------------------------------
 
 ### Networking
 - [Add list of network requests by screen ]
