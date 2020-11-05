@@ -90,6 +90,7 @@ The users can upload photos to an album thats shared with selected contacts who 
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+https://www.figma.com/file/DRKfSh8yHzcGpa7zPYoZG9/Photo-Collaborate?node-id=0%3A1
 
 ### [BONUS] Interactive Prototype
 
