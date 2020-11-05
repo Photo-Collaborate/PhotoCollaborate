@@ -99,36 +99,35 @@ https://www.figma.com/file/DRKfSh8yHzcGpa7zPYoZG9/Photo-Collaborate?node-id=0%3A
 ### Models
 
 ## Photo
-# Property   |   Type          |   Description               |
-# ------------------------------------------------------------
-# photoID    | String          | Unique id for the user post
-# author     | Pointer to user | Uploaded photo author
-# image      | File            | image in the album
-# uploadedAt | DateTime        | Date when photo was uploaded
-# takenOn    | DateTime        | Date when photo was taken
-# ------------------------------------------------------------
+| Property   |   Type          |   Description               |
+|-----------|------------------|----------------------------|
+|photoID    | String          | Unique id for the user post|
+| author     | Pointer to user | Uploaded photo author|
+|image      | File            | image in the album|
+| uploadedAt | DateTime        | Date when photo was uploaded|
+| takenOn    | DateTime        | Date when photo was taken|
+
 
 ## Album
-# Property   |   Type          |   Description               |
-# ------------------------------------------------------------
-# albumID    | String          | Unique id for the album
-# author     | Pointer to user | Uploaded album author
-# members      | Pointer to Users            | users that belong to album
-# photos    |  List  | List of photo IDS that belong to album
-# createdAt | DateTime        | Date when album was created
-# updatedAt    | DateTime        | Date when album was updated
-# ------------------------------------------------------------
+| Property   |   Type          |   Description               |
+|------------|-----------------|-----------------------------|
+|albumID    | String          | Unique id for the album|
+| author     | Pointer to user | Uploaded album author|
+| members      | Pointer to Users            | users that belong to album|
+|photos    |  List  | List of photo IDS that belong to album|
+| createdAt | DateTime        | Date when album was created|
+| updatedAt    | DateTime        | Date when album was updated|
 
 ## User
-# Property   |   Type          |   Description               |
-# ------------------------------------------------------------
-# userID    | String          | Unique id for the user
-# createdAt     | DateTime | Date of when user was created
-# profileImage      | File            | Profile image of user
-# username | String        | Username
-# email    | String        | Users email
-# password  | String    | Hashed users password
-# ------------------------------------------------------------
+| Property   |   Type          |   Description               |
+| -----------|-----------------|-----------------------------|
+| userID    | String          | Unique id for the user|
+| createdAt     | DateTime | Date of when user was created|
+| profileImage      | File            | Profile image of user|
+| username | String        | Username|
+| email    | String        | Users email|
+| password  | String    | Hashed users password|
+
 
 ### Networking
 - [Add list of network requests by screen ]
