@@ -31,8 +31,8 @@ class RegisterViewController: UIViewController {
     @IBAction func onRegister(_ sender: Any) {
         let user = PFUser()
         
-        // user.setObject(firstNameField.text as Any, forKey: "first name")
-        // user.setObject(lastNameField.text as Any, forKey: "last name")
+        user.setObject(firstNameField.text as Any, forKey: "firstName")
+        user.setObject(lastNameField.text as Any, forKey: "lastName")
         user.username = usernameField.text! as String
         user.password = passwordField.text! as String
       
