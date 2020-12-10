@@ -133,3 +133,10 @@ https://www.figma.com/file/DRKfSh8yHzcGpa7zPYoZG9/Photo-Collaborate?node-id=0%3A
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/0Rzw2HJsFX.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
