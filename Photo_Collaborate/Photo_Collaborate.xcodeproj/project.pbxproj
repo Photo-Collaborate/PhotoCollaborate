@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		100B320E25621C4E0026555A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B320D25621C4E0026555A /* LoginViewController.swift */; };
 		100B321625621E500026555A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B321525621E500026555A /* RegisterViewController.swift */; };
+		103C018A25797BBF0058590E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103C018925797BBF0058590E /* SettingsViewController.swift */; };
 		6677C8C8C7212050C2D44ACA /* Pods_Photo_Collaborate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E746B9B96A92B4B41CAC1D0B /* Pods_Photo_Collaborate.framework */; };
 		AA3F2BE0255E2A39000A74F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F2BDF255E2A39000A74F2 /* AppDelegate.swift */; };
 		AA3F2BE2255E2A39000A74F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F2BE1255E2A39000A74F2 /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		100B320D25621C4E0026555A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		100B321525621E500026555A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		103C018925797BBF0058590E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		7E0962D58DFDFA9BE195A8C4 /* Pods-Photo_Collaborate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo_Collaborate.release.xcconfig"; path = "Target Support Files/Pods-Photo_Collaborate/Pods-Photo_Collaborate.release.xcconfig"; sourceTree = "<group>"; };
 		AA3F2BDC255E2A39000A74F2 /* Photo_Collaborate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photo_Collaborate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3F2BDF255E2A39000A74F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				AA3F2BED255E2A3A000A74F2 /* Info.plist */,
 				100B320D25621C4E0026555A /* LoginViewController.swift */,
 				100B321525621E500026555A /* RegisterViewController.swift */,
+				103C018925797BBF0058590E /* SettingsViewController.swift */,
 			);
 			path = Photo_Collaborate;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				AA3F2BE4255E2A39000A74F2 /* ViewController.swift in Sources */,
 				AA3F2BE0255E2A39000A74F2 /* AppDelegate.swift in Sources */,
 				AA3F2BE2255E2A39000A74F2 /* SceneDelegate.swift in Sources */,
+				103C018A25797BBF0058590E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

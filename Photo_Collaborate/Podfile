@@ -7,5 +7,5 @@ target 'Photo_Collaborate' do
 
   # Pods for Photo_Collaborate
   pod 'Parse'
-
+  pod 'AlamofireImage'
 end

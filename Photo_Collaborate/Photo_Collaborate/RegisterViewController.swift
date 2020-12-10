@@ -16,13 +16,16 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var firstNameField: UITextField!
     @IBOutlet weak var lastNameField: UITextField!
     @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         firstNameField.text = ""
         lastNameField.text = ""
         usernameField.text = ""
+        emailField.text = ""
         passwordField.text = ""
 
         // Do any additional setup after loading the view.
@@ -34,14 +37,16 @@ class RegisterViewController: UIViewController {
         user.setObject(firstNameField.text as Any, forKey: "firstName")
         user.setObject(lastNameField.text as Any, forKey: "lastName")
         user.username = usernameField.text! as String
+        user.email = emailField.text! as String
         user.password = passwordField.text! as String
+        
+        
       
         
         user.signUpInBackground { (success, error) in
             if success {
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
             } else {
-                print("Username is : \(String(describing: user.username))  Password is : \(String(describing: user.password))")
                 print("Error: \(String(describing: error?.localizedDescription))")
             }
         }
